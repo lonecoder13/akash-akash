@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "us-east-1",
+        "profile_name": "flask_deploy",
+        "project_name": "urlsearch",
+        "runtime": "python3.10",
+        "s3_bucket": "zappa-jdd77qhan",
+        "timeout_seconds": 60,
+        "custom_script": "get_rest_api_id.py"
+        
+
+    }
+}
